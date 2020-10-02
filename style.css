@@ -1,0 +1,96 @@
+html {
+    margin: 0%;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(32, 30, 30);
+    background-image: url(images/elias-maurer-WLxY8FL_jXM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1024px;
+}
+
+header {
+    height: 118px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.384);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 17px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+main {
+    height: 400px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+h3 {
+    font-size: 44px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+p {
+    font-size: 24px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.fontstyle {
+    text-shadow: 2px 2px red;
+}
+/* style and animate this button */
+button {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 1px 3px 3px #050505;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #fa4525;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  button:hover {
+    background: #abb05f;
+    text-decoration: none;
+  }
+footer {
+    background-color: rgba(0, 0, 0, 0.63);
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+footer p {
+    font-size: 15px;
+}
