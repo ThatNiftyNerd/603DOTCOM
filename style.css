@@ -42,15 +42,21 @@ nav a {
 }
 
 main {
-    height: 400px;
+    height: 420px;
     text-align: center;
     padding-top: 10px;
     padding-right: 120px;
     padding-left: 120px;
 }
 
-h3 {
-    font-size: 44px;
+section {
+    height: 350px;
+    text-align: center;
+    padding-left: 380px;
+}
+
+h1 {
+    font-size: 64px;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -72,18 +78,24 @@ button {
     -moz-border-radius: 28;
     border-radius: 28px;
     text-shadow: 1px 3px 3px #050505;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
-    font-size: 20px;
-    background: #fa4525;
+    font-size: 40px;
+    background: red;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
   }
   
   button:hover {
-    background: #abb05f;
+    background: #f8ab04;
     text-decoration: none;
   }
+
+.serviceContainer {
+    background-color: white;
+    width: 100%;
+}  
+
 footer {
     background-color: rgba(0, 0, 0, 0.63);
     text-align: center;
@@ -93,4 +105,5 @@ footer {
 
 footer p {
     font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
