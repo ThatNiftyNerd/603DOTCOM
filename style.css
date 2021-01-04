@@ -77,16 +77,15 @@ navbar {
 
 @media (max-width: 1125px) {
     .grid,
-    .container .grid,
+    .container .grid {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
+    }
 
     header {
     height: 118px;
     text-align: center;
-    }
-
-    
+    }   
 
     nav a {
     text-decoration: none;
